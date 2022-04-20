@@ -20,7 +20,8 @@ def get_score(df_true, df_submission):
 
 
 filename = 'sample.zip'
-df_submission = pd.read_csv(filename)
+submission = './submission/submission2.csv'
+df_submission = pd.read_csv(submission)
 
 # generate a baseline based on sample.zip
 df_true = pd.read_csv(filename)
